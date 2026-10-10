@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Flink libraries
+flink-lib/
+
+# Generated files
+*.log
+.ipynb_checkpoints/
